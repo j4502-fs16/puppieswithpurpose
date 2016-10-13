@@ -11,7 +11,7 @@ font-size:4rem;
 h2{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: white;
-font-size: 3rem;
+font-size: 2rem;
 }
 
 p{
@@ -20,3 +20,34 @@ p{
   font-size: 1rem;
  line-height: 1.35rem;
 }
+
+ul{
+  list-style-type: none;
+}
+#nav{
+padding:0;
+}
+
+#nav li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  }
+
+  #nav a:link, a:visited {
+    display:block;
+    color: white;
+    background-color: #444646;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: .8rem
+   }
+
+  #nav a:hover, a:active {
+    background-color: #4E91AB;
+  }
