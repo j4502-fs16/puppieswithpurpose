@@ -5,14 +5,18 @@ html{
 h1{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: black;
+font-size:4rem;
 }
 
 h2, h3, h4, h5, h6,{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: white;
+font-size: 3rem;
 }
 
 p{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
-  color: black; 
+  color: black;
+  font-size: 1rem;
+ line-height: 1.35rem;
 }
