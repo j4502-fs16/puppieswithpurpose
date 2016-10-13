@@ -6,12 +6,17 @@ h1{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: black;
 font-size:4rem;
+text-align: center;
 }
 
 h2{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: white;
 font-size: 2rem;
+}
+
+body{
+  background-color: #868989;
 }
 
 p{
@@ -33,7 +38,7 @@ padding:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 33.3%;
   }
 
   #nav a:link, a:visited {
@@ -52,8 +57,6 @@ padding:0;
     background-color: #f2df7e;
   }
 
-body{
-  background-color: 868989;
 
 .donatewrapper{
 	position: relative;
