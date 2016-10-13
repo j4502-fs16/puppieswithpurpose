@@ -52,30 +52,20 @@ padding:0;
     background-color: #f2df7e;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body{
   background-color: 868989;
+
+.donatewrapper{
+	position: relative;
+	padding-bottom: 100%; /* this is another way to express a 16:9 ratio */
+	padding-top: 25px;
+	height: 0;
+}
+
+.donatewrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
