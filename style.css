@@ -1,0 +1,18 @@
+html{
+  font-size: 100%;
+}
+
+h1{
+font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+color: black;
+}
+
+h2, h3, h4, h5, h6,{
+font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+color: white;
+}
+
+p{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: black; 
+}
