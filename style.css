@@ -17,6 +17,7 @@ font-size: 2rem;
 
 body{
   background-color: #868989;
+  width: 100%;
 }
 
 p{
@@ -27,25 +28,27 @@ p{
 }
 
 #yellow{
-  width: 90%;
+  width: 95%;
   margin:5px;
   background-color: #f2df7e;
   padding: 10px;
 }
 #gray{
-  width: 90%;
+  width: 95%;
   margin:5px;
   background-color: #444646;
   padding: 20px;
 }
 #container{
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
 }
 
 ul{
   list-style-type: none;
+  width: 100%;
 }
+
 #nav{
 padding:0;
 }
@@ -55,7 +58,7 @@ padding:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 27%;
+  width: 25%;
 
   }
 
@@ -75,25 +78,6 @@ padding:0;
     background-color: #f2df7e;
   }
 
-
-.main_logo{
-  padding: 0px;
-  float: left;
-}
-
-.span_logo{
-  margin-top: -100px;
-  display: inline-block;
-  vertical-align: top;
-  height: 105px;
-  width: 152px;
-  margin-top: 0;
-}
-
-.span_logo img{
-width: 100%;
-height: auto;
-}
 
 .donatewrapper{
 	position: relative;
