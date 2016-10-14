@@ -46,8 +46,10 @@ p{
 ul{
   list-style-type: none;
 }
-#nav{
+
+#nav {
 padding:0;
+width: 100%;
 }
 
 #nav li {
@@ -55,8 +57,7 @@ padding:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 27%;
-
+  width: 25%;
   }
 
   #nav a:link, a:visited {
