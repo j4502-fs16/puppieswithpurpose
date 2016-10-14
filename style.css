@@ -49,8 +49,13 @@ ul{
   width: 100%;
 }
 
+<<<<<<< HEAD
 #nav{
+=======
+#nav {
+>>>>>>> origin/master
 padding:0;
+width: 100%;
 }
 
 #nav li {
@@ -59,7 +64,10 @@ padding:0;
   margin: 0;
   padding: 0;
   width: 25%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
   }
 
   #nav a:link, a:visited {
