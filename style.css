@@ -50,7 +50,7 @@ ul{
 }
 
 #nav{
-padding:0;
+  padding: 0;
 }
 
 #nav li {
@@ -80,16 +80,24 @@ padding:0;
 
 
 .donatewrapper{
-	position: relative;
-	padding-bottom: 100%; /* this is another way to express a 16:9 ratio */
-	padding-top: 25px;
+	position: relative;;
+	padding-bottom: 12rem; /* this is another way to express a 16:9 ratio */
+  display: block;
 	height: 0;
+  margin: auto;
+  width: 33.3%;
+
 }
 
 .donatewrapper iframe {
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+
+
+}
+
+#width{
+  width: 95%;
+  margin:5px;
+  padding: 10px;
 }
