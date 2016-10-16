@@ -15,6 +15,11 @@ color: white;
 font-size: 2rem;
 }
 
+h3{
+  font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+  color: black;
+  font-size: 3rem;
+}
 body{
   background-color: #868989;
   width: 100%;
@@ -107,4 +112,19 @@ ul{
   width: 95%;
   margin:5px;
   padding: 10px;
+}
+
+#form{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  padding:30px;
+}
+
+#footer{
+  color:black;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+
 }
