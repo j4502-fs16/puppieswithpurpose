@@ -62,16 +62,19 @@ ul{
   width: 25%;
   }
 
-  #nav a:link, a:visited {
-    display:block;
-    color: white;
-    background-color: #444646;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    padding: 35px;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-   }
+  .mainmenu a:link {
+   padding:35px;
+ }
+
+ #nav a:link, a:visited {
+   display:block;
+   color: white;
+   background-color: #444646 ;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+   font-family: 'Lato', Helvetica, Arial, sans-serif;
+  }
 
   #nav a:hover, a:active {
     background-color: #f2df7e;
