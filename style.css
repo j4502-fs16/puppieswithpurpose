@@ -77,6 +77,10 @@ ul{
     background-color: #f2df7e;
   }
 
+.bottom {
+  position: fixed;
+  bottom: 0;
+}
 
 .donatewrapper{
 	position: relative;;
