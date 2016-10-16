@@ -99,6 +99,10 @@ ul{
 
 }
 
+.container {
+  display: flex;
+}
+
 #width{
   width: 95%;
   margin:5px;
