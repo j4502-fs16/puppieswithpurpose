@@ -181,6 +181,11 @@ ul{
   text-decoration: none;
 }
 
+.zoom-image{
+  display:inline-block;
+  overflow;
+}
+
 div.img {
     border: 1px solid #ccc;
     display: inline-block;
