@@ -184,6 +184,7 @@ ul{
 .zoom-image{
   display:inline-block;
   overflow;
+  min-height:100vh;
 }
 
 div.img {
