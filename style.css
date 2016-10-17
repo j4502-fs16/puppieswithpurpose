@@ -180,3 +180,37 @@ ul{
   line-height: 1.35rem;
   text-decoration: none;
 }
+
+div.img {
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    height: auto;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#gallery {
+  width: 84%;
+  height: auto;
+  background-color: white;
+  border-style: solid;
+  margin: auto;
+  text-align: center;
+}
