@@ -163,7 +163,7 @@ ul{
     max-height: 100%;
 }
 
-#donorslink a:link, a:visited{
+.donorslink a:link, a:visited{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-style: italic;
   color: black;
@@ -172,7 +172,7 @@ ul{
   text-decoration: none;
 }
 
-#donorslink a:hover, a:active{
+.donorslink a:hover, a:active{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-style: italic;
   color: #f2df7e;
