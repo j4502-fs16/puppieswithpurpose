@@ -162,3 +162,21 @@ ul{
     max-width: 100%;
     max-height: 100%;
 }
+
+#donorslink a:link, a:visited{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  text-decoration: none;
+}
+
+#donorslink a:hover, a:active{
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  color: #f2df7e;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  text-decoration: none;
+}
