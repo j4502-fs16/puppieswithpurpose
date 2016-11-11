@@ -218,19 +218,19 @@ div.desc {
 .ac-container {
   width: 1200px;
   margin: 20px auto 40px auto;
-
+  background-color: #444646;
 }
 
 .ac-container label{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   padding: 5px 20px;
   display: block;
-  height: 30px;
+  height: 100px;
   cursor: pointer;
   z-index: 20;
   color: white;
-  border: 1px solid black;
-  font-size: 1.5em;
+  border: 1px black;
+  font-size: 2em;
 }
 .ac-container label:hover{
   background: #444646;
@@ -239,7 +239,7 @@ div.desc {
 .ac-container input:checked + label,
 .ac-container input:checked + label:hover {
   background: #444646;
-  color: #444646;
+  color: white;
 }
 
 .ac-container input{
