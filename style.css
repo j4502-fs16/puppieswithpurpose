@@ -72,7 +72,7 @@ ul{
  }
 
  #nav a:link, a:visited {
-   display:block;
+   display: block;
    color: white;
    background-color: #444646;
    font-weight: bold;
