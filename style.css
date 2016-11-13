@@ -287,7 +287,7 @@ height: 230px
 
 #form-1{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: nowrap;
 }
 
 #logo_container {
