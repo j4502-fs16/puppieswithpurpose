@@ -132,6 +132,14 @@ nav ul li {
    display: none;
  }
 
+
+
+ #logo_container {
+   background-color: white;
+   padding: 20px;
+   align-self: center;
+ }
+
 /*
  .span_logo {
    order: 3;
