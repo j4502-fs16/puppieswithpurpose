@@ -287,5 +287,12 @@ height: 230px
 
 #form-1{
   display: flex;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
+}
+
+#logo_container {
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
 }

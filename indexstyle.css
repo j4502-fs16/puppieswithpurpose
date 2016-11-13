@@ -137,7 +137,8 @@ nav ul li {
  #logo_container {
    background-color: white;
    padding: 20px;
-   align-self: center;
+   justify-content: center;
+   align-items: flex-start;
  }
 
 /*
