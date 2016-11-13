@@ -284,3 +284,8 @@ div.desc {
 .ac-container input:checked ~ article.ac-large {
 height: 230px
 }
+
+#form-1{
+  display: flex;
+  flex-flow: row wrap; 
+}
