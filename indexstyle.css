@@ -21,7 +21,7 @@ h3{
   font-size: 3rem;
 }
 body{
-  background-color: #868989;
+  background-color: rgba(0,0,0,0.1);
   width: 100%;
 }
 
@@ -85,19 +85,22 @@ ul{
   list-style-type: none;
   width: 100%;
   padding-left: 0px;
+
 }
 
-nav{
+#nav{
   padding: 0;
-
+  list-style-type: none;
+  width: 100%;
 }
 
-nav li {
+#nav li {
   float: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
+
   }
 
 nav ul li {
@@ -118,12 +121,17 @@ nav ul li {
 
  }
 
- .mainmenu {
+ .mainmenu, .logo {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-
+   display: inline-flex;
  }
+
+ .hide {
+   display: none;
+ }
+
 /*
  .span_logo {
    order: 3;
@@ -134,11 +142,11 @@ nav ul li {
  }*/
 
 
- @media screen and (max-width: 700px) {
+ @media screen and (min-width: 700px) {
 
-    .hide {
-      display: none;
-    }
+   .hide {
+     display: block;
+   }
 
     .mainmenu {
       justify-content: flex-start;
