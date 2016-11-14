@@ -1,12 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 
 <head>
   <title>Volunteer</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
+
 </head>
 
 <body>
@@ -26,8 +26,8 @@
          </div>
        </ul>
 
-       <div class="flex-container">
-           <div class="flex-item">
+<div class="flex-container">
+<div class="flex-item">
 
 <div id="container">
   <h1>Volunteer</h1>
@@ -35,6 +35,7 @@
 </div>
 <section class="ac-container">
   <div>
+<div class="flex-item">
 <input id="ac-1" name="accordian-1" type="checkbox" checked/>
 <label for="ac-1">Join a Committee</label>
 <article class="ac-small">
@@ -45,7 +46,9 @@
 We’re a growing organization that needs help in a variety of areas. We welcome students and local residents to volunteer in various roles. Whether you’re interested in public relations, fundraising, arts and crafts, photography, blogging or playing training games with our puppies, you can help out. We require members to be involved and commit to at least 3 service hours per semester.</p>
 </div>
 </article>
+</div>
 
+<div class="flex-item">
 <input id="ac-2" name="accordion-1" type="checkbox" />
     		<label for="ac-2">Raise a Puppy</label>
     		<article class="ac-medium">
@@ -56,7 +59,9 @@ We’re a growing organization that needs help in a variety of areas. We welcome
 Many people join our organization under the misconception that we’re going to hand them a puppy on day one, but that’s not quite how it works. Puppy raisers have to meet numerous requirements and be prepared for the large responsibility of caring for an assistance puppy. </p>
 </div>
 </article>
+</div>
 
+<div class="flex-item">
 <input id="ac-3" name="accordion-1" type="checkbox" />
     		<label for="ac-3">Puppy Sit</label>
     		<article class="ac-large">
@@ -65,28 +70,29 @@ Many people join our organization under the misconception that we’re going to 
   <p>Puppy Sitters are responsible for taking care of puppies for a few hours at a time. They assist the Puppy Raisers by taking care of the puppies while the Raisers are in situations when they are absolutely unable to keep their puppy with them. Puppy sitters play a vital role by taking the puppies for a short period of time, usually a few hours, and keep them safe and entertained. Puppy sitters must attend meetings frequently and be very familiar with the "Service Dog in Training" manual, which outlines the dos and don’ts of taking care of assistance puppies. Puppy sitters also have the opportunity to become puppy raisers, who are the primary caretakers of the puppies. </p>
 </div>
 </article>
-
+</div>
 </div>
 
 </div>
 <h3>Complete Form for More Information</h3>
-</div id="form-1">
-<div class="wrapper">
+
+<div id="form-1">
+<div class="formwrapper">
 <label for="name">Your name</label>
   <input id="name" name="name" type="text" placeholder="John Doe">
 </div>
 
-<div class="wrapper">
+<div class="formwrapper">
   <label for="phone">Telephone number</label>
   <input id="phone" name="phone" type="tel" placeholder="000-000-0000">
 </div>
 
-<div class="wrapper">
+<div class="formwrapper">
   <label for="email">Email</label>
   <input id="email" name="email" type="email" placeholder="johndoe@gmail.com">
 </div>
 
-<div class="wrapper">
+<div class="formwrapper">
   <label for="volunteer">Volunteer Interests</label>
   <input id="volunteer" name = "volunteer" type="text" list="volunteers">
     <datalist id="volunteers">
@@ -95,6 +101,8 @@ Many people join our organization under the misconception that we’re going to 
       <option value="Puppy Sit">
     </datalist>
 </div>
+<input type="button" name="btn" class="btn-style" value="submit"/>
+
 </div>
 
 </div>
