@@ -58,38 +58,11 @@ nav ul{
   display: none;
 }
 
-@media screen and (min-width:700px){
-  nav ul{
-    display: flex;
-  }
-
-  nav ul li{
-    border-top: none;
-  }
-
-  nav a{
-    padding: 30px 20px;
-  }
-
-  .menu-trigger{
-    display: none;
-  }
-
-  header .span_logo{
-    order: 1;
-    flex: 1;
-  }
-
-  nav{
-    order: 2;
-    flex: 6;
-  }
-}
-
 .slideshow-container {
   max-width: 1300px;
   position: relative;
   margin: 50px auto;
+  width: 80%;
 }
 
 .prev, .next {
@@ -157,4 +130,32 @@ nav ul{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media screen and (min-width:799px){
+  nav ul{
+    display: flex;
+  }
+
+  nav ul li{
+    border-top: none;
+  }
+
+  nav a{
+    padding: 30px 20px;
+  }
+
+  .menu-trigger{
+    display: none;
+  }
+
+  header .span_logo{
+    order: 1;
+    flex: 1;
+  }
+
+  nav{
+    order: 2;
+    flex: 6;
+  }
 }
