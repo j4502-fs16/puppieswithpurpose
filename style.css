@@ -337,7 +337,18 @@ height: 510px
 .section1{
    font-weight: bolder;
    padding-bottom: 10px;
+   color: yellow;
   }
+
+.section1 p{
+  color: #FFB12E;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+
+.section1 a:link{
+  text-decoration: none;
+}
 
 .section2{
      font-style: italic;
@@ -352,10 +363,9 @@ height: 510px
      padding-bottom: 10px;
     }
 
-/*#logo{
-  width: 40%;
-  margin: auto;
-}*/
+.section3 p, .section4 p{
+  color: rgba(0, 0, 0, 0.8);
+}
 
 @media screen and (min-width:799px){
 
