@@ -329,6 +329,24 @@ height: 510px
   align-items: center;
 }
 
+.section1{
+   font-weight: bolder;
+   padding-bottom: 10px;
+  }
+
+.section2{
+     font-style: italic;
+     padding-bottom: 10px;
+    }
+
+.section3{
+    padding-bottom: 10px;
+  }
+
+.section4{
+     padding-bottom: 10px;
+    }
+
 @media screen and (min-width:799px){
 
   .menu-trigger{
@@ -386,4 +404,13 @@ p{
 .ac-container input:checked ~ article.ac-large {
 height: 150px
 }
+
+.section {
+  column-count: 3;
+  column-gap: 40px;
+  width: 85%;
+  margin: auto;
+  padding-top: 30px;
+}
+
 }
