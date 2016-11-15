@@ -161,11 +161,48 @@ nav ul li {
       justify-content: flex-start;
     }
 
+    .section {
+      column-count: 3;
+      column-gap: 40px;
+    }
 
+    /*.section {
+      display: flex;
+      flex-flow: row wrap;
+      flex: 1 100%;
+    }
+
+    .section1 {
+      order: 1;
+      flex-flow: column;
+      display: flex;
+      flex: 1 auto;
+    }
+
+    .section2 {
+      order: 2;
+      flex-flow: column;
+      display: flex;
+      flex: 1 auto;
+    }
+
+    .section3 {
+      order: 3;
+      flex-flow: column;
+      display: flex;
+      flex: 1 auto;
+    }
+
+    .section4 {
+      order: 4;
+      flex-flow: column;
+      display: flex;
+      flex: 1 auto;
+    }*/
 
 }
 
-#calendar {
+/*#calendar {
     width: 100%;
 }
 
@@ -256,7 +293,7 @@ nav ul li {
                 Mobile Responsiveness
    ============================*/
 
-
+/*
 @media(max-width: 768px) {
 
     #calendar .weekdays, #calendar .other-month {
@@ -273,5 +310,5 @@ nav ul li {
 
     #calendar .date {
         float: none;
-    }
-}
+    }*/
+}*/
