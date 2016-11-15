@@ -347,6 +347,11 @@ height: 510px
      padding-bottom: 10px;
     }
 
+/*#logo{
+  width: 40%;
+  margin: auto;
+}*/
+
 @media screen and (min-width:799px){
 
   .menu-trigger{
@@ -411,6 +416,11 @@ height: 150px
   width: 85%;
   margin: auto;
   padding-top: 30px;
+}
+
+.width {
+  width: 85%;
+  margin: auto;
 }
 
 }
