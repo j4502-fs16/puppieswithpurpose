@@ -192,10 +192,14 @@ p{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     max-width: 1200px;
     margin: auto;
 }
 
+.flex-item2 {
+  align: auto;
+}
 
 .link a:link, a:visited{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
