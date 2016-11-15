@@ -410,6 +410,7 @@ h1{
 p{
   font-size: 1.2rem;
    line-height: 1.6rem;
+   margin: 10px 10px;
 }
 
 .ac-container label{
@@ -418,16 +419,16 @@ p{
 }
 
 .ac-container input:checked ~ article.ac-small {
-  height: 170px;
+  height: 100%;
 
 }
 
 .ac-container input:checked ~ article.ac-medium {
-  height: 220px;
+  height: 100%;
 }
 
 .ac-container input:checked ~ article.ac-large {
-height: 150px
+height: 100%;
 }
 
 .section {
