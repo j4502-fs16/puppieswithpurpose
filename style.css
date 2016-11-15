@@ -29,11 +29,11 @@ nav ul li{
 
 nav a{
   display: block;
-  font-size: 2em;
-  font-weight: normal;
+  font-size: 1em;
+  font-weight: bold;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   text-align: center;
-  padding: 30px 200px;
+  padding: 30px 70px;
   margin: auto;
 }
 
@@ -45,33 +45,33 @@ nav a:link, a:visited {
 
 .menu-trigger {
   order: 1;
-  font-size: 3em !important;
+  font-size: 1.8em !important;
   font-style: normal !important;
   line-height: normal !important;
-  padding: 30px 30px;
+  padding: 25px 20px;
 }
 
 header .span_logo{
   order: 2;
-  padding: 25px 50px;
+  padding: 5px 20px;
 }
 
 nav a:hover, a:active {
   background-color: #f2df7e;
   color: #222222 !important;
+  font-style: normal !important;
 }
 
 nav ul{
   display: none;
 }
 
-
 h1{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
-font-size:4.5rem;
+font-size:3.3rem;
 text-align: center;
-padding: 30px 0;
+padding: 20px 0;
 }
 
 h2{
@@ -89,31 +89,9 @@ h3{
 p{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: black;
-  font-size: 1.5rem;
- line-height: 2.5rem;
+  font-size: 1.2rem;
+ line-height: 2rem;
 }
-
-#yellow{
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-  margin:5px 5px;
-  background-color: #f2df7e;
-  padding: 10px;
-}
-
-/*#gray{
-  width: 95%;
-  margin:5px;
-  background-color: #444646;
-  padding: 10px;
-}*/
-
-#container{
-  width: 98%;
-  margin: 0 auto;
-}
-
 
 .bottom {
   position: fixed;
@@ -165,14 +143,16 @@ p{
 }
 
 .formwrapper input{
-  width: 450px;
-  height: 50px;
+  width: 80%;
+  max-width: 450px;
+  height: 1rem;
   border: 1px;
   padding: 20px;
   margin: 15px 0;
   border: 2px solid black;
   border-radius: 4px;
 }
+
 
 .formwrapper div{
   margin-bottom: 30px;
@@ -273,13 +253,14 @@ div.desc {
 
 .ac-container label{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
-  padding: 30px 30px;
+  padding: 25px;
+  text-align: center;
   display: block;
   cursor: pointer;
   z-index: 20;
   color: #ebebe0;
-  border: 1px #ebebe0 solid;
-  font-size: 2.5em;
+  border-bottom: 1px #ebebe0 solid;
+  font-size: 2em;
 }
 
 .ac-container label:hover{
@@ -298,7 +279,7 @@ div.desc {
 }
 
 .ac-container article{
-  background: #444646;
+  background: #f2df7e;
   margin: -1px;
   overflow:hidden;
   height: 0px;
@@ -331,10 +312,6 @@ div.desc {
 height: 510px
 }
 
-article {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .more-link {
     margin-left: 0.5em;
@@ -367,8 +344,9 @@ article {
   }
 
   nav a{
-    font-size: 1.3em;
+    font-size: 1.3em !important;
     padding: 30px 20px;
+    border: none !important;
   }
 
   header .span_logo{
@@ -406,11 +384,7 @@ p{
 }
 
 .ac-container input:checked ~ article.ac-large {
-height: 230px
+height: 150px
 }
 
-article {
-    width: 80%;
-    margin: 0 auto;
-}
 }
