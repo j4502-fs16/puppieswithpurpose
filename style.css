@@ -367,6 +367,11 @@ height: 510px
   color: rgba(0, 0, 0, 0.8);
 }
 
+.instagram-wrapper {
+    float: left;
+    margin-right: 30px;
+}
+
 @media screen and (min-width:799px){
 
   .menu-trigger{
