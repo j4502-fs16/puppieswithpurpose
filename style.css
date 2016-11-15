@@ -165,7 +165,7 @@ p{
 }
 
 .formwrapper input{
-  width: 200px;
+  width: 450px;
   height: 50px;
   border: 1px;
   padding: 20px;
@@ -178,7 +178,7 @@ p{
   margin-bottom: 30px;
 }
 .btn-style{
-  width: 40%;
+  width: 20%;
   height: 40px;
 	border: solid 1px #e6e6e6;
 	border-radius: 3px;
@@ -342,7 +342,7 @@ article {
 
 #form-1{
   display: flex;
-  flex-flow: nowrap;
+  flex-flow: column wrap;
 }
 
 #logo_container {
