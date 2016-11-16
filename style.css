@@ -58,7 +58,7 @@ header .span_logo{
 
 nav a:hover, a:active {
   background-color: #f2df7e;
-  color: #222222 !important;
+  /*color: #222222 !important;*/
   font-style: normal !important;
 }
 
