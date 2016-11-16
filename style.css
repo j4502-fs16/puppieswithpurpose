@@ -368,7 +368,7 @@ height: 510px
 }
 
 .instagram-wrapper {
-    float: left;
+    display: flex;
     margin-right: 30px;
 }
 
