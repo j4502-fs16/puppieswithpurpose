@@ -348,14 +348,13 @@ height: 510px
 }*/
 
 .section1{
-   font-weight: bolder;
+   font-weight: bold;
    padding-bottom: 10px;
    border-bottom: solid 0.5px rgba(0, 0, 0, 0.5);
 
   }
 
 .section1 p{
-  color: #FFB12E;
   font-size: 1.4rem;
   line-height: 1.6rem;
 }
@@ -366,7 +365,7 @@ height: 510px
 
 #the_greek_list{
   text-decoration: none;
-  color: #FFB12E;
+  /*color: #FFB12E;*/
   font-weight: normal;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 1rem;
