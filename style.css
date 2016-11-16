@@ -58,7 +58,7 @@ header .span_logo{
 
 nav a:hover, a:active {
   background-color: #f2df7e;
-  /*color: #222222 !important;*/
+  color: #222222 !important;
   font-style: normal !important;
 }
 
@@ -91,7 +91,7 @@ p{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: black;
   font-size: 1.2rem;
- line-height: 2rem;
+ line-height: 1.5rem;
  margin: 10px 10px;
 }
 
@@ -573,7 +573,6 @@ p{
    line-height: 1.6rem;
 }
 
-<<<<<<< HEAD
 .btn-style{
   /*display: flex;
   flex-flow: row;*/
@@ -598,25 +597,7 @@ p{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
 }
 
-=======
-/*.ac-container label{
-  border: none;
-  font-size: 2em;
-}
 
-.ac-container input:checked ~ article.ac-small {
-  height: 100%;
-
-}
-
-.ac-container input:checked ~ article.ac-medium {
-  height: 100%;
-}
-
-.ac-container input:checked ~ article.ac-large {
-height: 100%;
-}*/
->>>>>>> origin/master
 
 .width {
   width: 85%;
