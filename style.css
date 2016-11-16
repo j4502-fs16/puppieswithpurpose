@@ -387,6 +387,121 @@ height: 510px
   line-height: 1.2rem;
 }
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.slideshow-container img{
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  background-color: rgba(112,114,113,0.4);
+  color: #ebebe0;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 20px auto;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*=============puppies page slideshow ends here
+===========================
+*/
+
+.puppies-subpage-link {
+  padding: 30px;
+  margin:auto;
+  width:80%;
+  display: flex;
+  flex-flow: column;
+}
+
+.puppiessubpage {
+  display: flex;
+  flex-flow: nowrap row;
+  padding: 15px;
+}
+
+.puppiessubpage h2{
+  padding: 20px;
+}
+
+.puppiessubpage a:visited, a:link{
+  text-decoration: none;
+  color: #222222 !important;
+}
+
+.puppiessubpage a:active, a:hover{
+  opacity: 0.8;
+  background: none;
+  color: rgba(242,223,126) !important;
+}
+
 .social-wrapper {
     display: flex;
     margin-right: 30px;
@@ -489,7 +604,18 @@ height: 100%;
   width: 85%;
   margin: auto;
 }
+.puppies-subpage-link{
+  display: flex;
+  flex-flow: nowrap row;
+  width:55%;
+  margin:auto;
+}
 
+.puppiessubpage{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 }
 
 #calendar {
