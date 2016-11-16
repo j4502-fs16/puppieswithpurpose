@@ -84,7 +84,7 @@ h3{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   color: #222222;
   font-size: 3rem;
-  margin: 20px; 
+  margin: 20px;
 }
 
 p{
@@ -339,6 +339,14 @@ height: 510px
   align-items: center;
 }
 
+/*.section {
+  column-count: 3;
+  column-gap: 40px;
+  width: 85%;
+  margin: auto;
+  padding-top: 30px;
+}*/
+
 .section1{
    font-weight: bolder;
    padding-bottom: 10px;
@@ -526,14 +534,6 @@ height: 510px
 height: 100%;
 }
 
-.section {
-  column-count: 3;
-  column-gap: 40px;
-  width: 85%;
-  margin: auto;
-  padding-top: 30px;
-}
-
 @media screen and (min-width:799px){
 
   .menu-trigger{
@@ -590,14 +590,6 @@ p{
 
 .ac-container input:checked ~ article.ac-large {
 height: 100%;
-}
-
-.section {
-  column-count: 3;
-  column-gap: 40px;
-  width: 85%;
-  margin: auto;
-  padding-top: 30px;
 }*/
 
 .width {
@@ -615,6 +607,14 @@ height: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.section {
+  display: block;
+  column-count: 3;
+  width: 85%;
+  margin: auto;
+  padding-top: 30px;
 }
 }
 
