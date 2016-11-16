@@ -84,7 +84,7 @@ h3{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   color: #222222;
   font-size: 3rem;
-  margin: 20px; 
+  margin: 20px;
 }
 
 p{
@@ -170,7 +170,7 @@ p{
 	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
 	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
 	box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
-	font-size: 15px;
+	font-size: 10px;
   text-align: center;
 	color: #696869;
 	background: #ffffff;
@@ -258,7 +258,8 @@ div.desc {
 .ac-container {
   width: 95%;
   margin: 20px auto 40px auto;
-  background-color: #444646;
+  /*background-color: #444646;*/
+  background-color: #707271; 
 }
 
 .ac-container label{
@@ -281,7 +282,7 @@ div.desc {
 .ac-container input:checked + label,
 .ac-container input:checked + label:hover {
   background: #444646;
-  color: #ebebe0;;
+  color: #ebebe0;
 }
 
 .ac-container input{
@@ -574,31 +575,30 @@ p{
    line-height: 1.6rem;
 }
 
-/*.ac-container label{
-  border: none;
-  font-size: 2em;
+.btn-style{
+  /*display: flex;
+  flex-flow: row;*/
+  width: 20%;
+  height: 40px;
+	border: solid 1px #e6e6e6;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
+	box-shadow: 0px 0px 2px rgba(0,0,0,1.0);
+	font-size: 20px;
+  text-align: center;
+	color: #696869;
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background: linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
 }
 
-.ac-container input:checked ~ article.ac-small {
-  height: 100%;
-
-}
-
-.ac-container input:checked ~ article.ac-medium {
-  height: 100%;
-}
-
-.ac-container input:checked ~ article.ac-large {
-height: 100%;
-}
-
-.section {
-  column-count: 3;
-  column-gap: 40px;
-  width: 85%;
-  margin: auto;
-  padding-top: 30px;
-}*/
 
 .width {
   width: 85%;
