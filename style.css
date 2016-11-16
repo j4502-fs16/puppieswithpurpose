@@ -511,7 +511,7 @@ height: 510px
 
 .social-wrapper {
     display: flex;
-    margin-right: 30px;
+    flex-direction: column;
 }
 
 
