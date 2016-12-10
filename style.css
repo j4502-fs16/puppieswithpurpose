@@ -87,6 +87,12 @@ h3{
   margin: 20px;
 }
 
+h4{
+font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+color: #222222;
+font-size: 2rem;
+}
+
 p{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: black;
@@ -190,7 +196,6 @@ p{
   color:black;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: .8rem;
-  line-height: normal;
 }
 
 .contact{
