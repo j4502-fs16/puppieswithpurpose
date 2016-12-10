@@ -559,6 +559,51 @@ height: 510px
   color: rgba(242,223,126) !important;
 }
 
+/*styles for the landing page buttons*/
+.aside1 {
+  display: flex;
+  flex-flow: nowrap row;
+  padding: 15px;
+}
+
+.aside1 h2{
+  padding: 20px;
+}
+
+.aside1 a:visited, a:link{
+  text-decoration: none;
+  color: #222222 !important;
+}
+
+.aside1 a:active, a:hover{
+  opacity: 0.8;
+  background: none;
+  color: rgba(242,223,126) !important;
+}
+
+article
+
+.main
+
+aside
+
+.aside
+
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+  width: 95%;
+  margin: auto;
+  padding-bottom: .1px;
+}
+
+
+
+
+
+/*landing page buttons end here*/
+
+
 .social-wrapper {
     display: flex;
     flex-direction: column;
@@ -686,6 +731,25 @@ p{
   margin: auto;
   padding-top: 30px;
 }
+
+.aside {
+			flex: 2;
+			order: 2;
+      display: flex;
+      flex-flow: column;
+    }
+
+    .main {
+			order: 1;
+			display: flex;
+			flex: 3;
+    }
+
+    .dots {
+      display: flex;
+      order: 3;
+    }
+
 }
 
 #calendar {
@@ -775,6 +839,7 @@ p{
     background: #f5f5f5;
     color: #666;
 }
+
 
 
 /* ============================
