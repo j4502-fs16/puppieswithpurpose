@@ -69,7 +69,7 @@ nav ul{
 h1{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
-font-size:1rem;
+font-size:2rem;
 text-align: center;
 padding: 20px 0;
 }
@@ -83,15 +83,16 @@ font-size: 2rem;
 h3{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   color: #222222;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 20px;
 }
 
 h4{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
-font-size: 1.8rem;
+font-size: 2rem;
 }
+
 
 p{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -288,7 +289,7 @@ div.desc {
   cursor: pointer;
   z-index: 20;
   color: #ebebe0;
-  border-bottom: 1px #ebebe0 solid;
+  border-bottom: 1px black solid;
   font-size: 2em;
 }
 
@@ -306,6 +307,16 @@ div.desc {
 .ac-container input{
   display: none;
 }
+
+.ac-small{
+  border-bottom: 1px black solid;
+}
+
+.ac-medium{
+  border-bottom: 1px black solid;
+}
+
+
 
 .ac-container article{
   background: #f2df7e;
@@ -589,6 +600,12 @@ h1{
   color: #222222;
   text-align: center;
   padding: 20px 0;
+}
+h3{
+  font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+  color: #222222;
+  font-size: 3rem;
+  margin: 20px;
 }
 
 p{
