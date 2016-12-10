@@ -190,10 +190,11 @@ p{
   color:black;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: .8rem;
+  line-height: normal;
 }
 
 .contact{
-  
+
 }
 
 .flex-container {
