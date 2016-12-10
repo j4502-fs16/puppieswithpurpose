@@ -124,6 +124,10 @@ p{
   padding: 10px;
 }
 
+.blackfont{
+  color:#ebebe0;
+}
+
 #form-1{
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: black;
