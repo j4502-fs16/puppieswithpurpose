@@ -287,6 +287,10 @@ div.desc {
     text-align: center;
 }
 
+.education-info{
+padding: 10px;
+}
+
 .ac-container {
   width: 95%;
   margin: 20px auto 40px auto;
@@ -766,6 +770,7 @@ p{
     color: #666;
 }
 
+
 /* ============================
                 Mobile Responsiveness
    ============================*/
@@ -788,4 +793,8 @@ p{
     #calendar .date {
         float: none;
     }
+}
+
+.education-info{
+padding: 20px;
 }
