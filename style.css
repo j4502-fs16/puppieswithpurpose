@@ -87,8 +87,9 @@ font-size: 2rem;
 h3{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   color: #222222;
-  font-size: 1.5rem;
+  font-size: 2em;
   margin: 20px;
+  text-align: center;
 }
 
 h4{
@@ -371,7 +372,9 @@ height: 510px
 
 
 .more-link {
-    margin-left: 0.5em;
+  margin-left: .5em;
+  font-style: italic;
+  font-weight: bold;
 }
 
 #form-1{
@@ -580,6 +583,7 @@ height: 510px
 height: 100%;
 }
 
+
 @media screen and (min-width:799px){
 
   .menu-trigger{
@@ -618,11 +622,13 @@ h1{
   text-align: center;
   padding: 20px 0;
 }
+
 h3{
   font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
   color: #222222;
   font-size: 3rem;
   margin: 20px;
+  text-align: left;
 }
 
 p{
