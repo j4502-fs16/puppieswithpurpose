@@ -20,6 +20,7 @@ newLink.setAttribute("href","#");
 
 newLink.innerHTML="Read More";
 
+
 newLink.setAttribute( "class", "more-link" );
 
 firstParagraph.appendChild( newLink );
