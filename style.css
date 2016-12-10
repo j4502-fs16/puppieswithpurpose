@@ -69,7 +69,7 @@ nav ul{
 h1{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
-font-size:3.3rem;
+font-size:1rem;
 text-align: center;
 padding: 20px 0;
 }
@@ -90,7 +90,7 @@ h3{
 h4{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
-font-size: 2rem;
+font-size: 1.8rem;
 }
 
 p{
@@ -193,13 +193,18 @@ p{
 }
 
 #footer{
-  color:black;
+  color: white;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
-  font-size: .8rem;
+  font-size: .8em;
+  line-height: .3em;
 }
 
 .contact{
-
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  background-color:#444646;
+  padding: 10px;
 }
 
 .flex-container {
@@ -580,6 +585,10 @@ height: 100%;
 
 h1{
   font-size: 4rem;
+  font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
+  color: #222222;
+  text-align: center;
+  padding: 20px 0;
 }
 
 p{
