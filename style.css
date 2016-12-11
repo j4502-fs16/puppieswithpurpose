@@ -510,7 +510,6 @@ height: 510px
   bottom: 0px;
   width: 100%;
   text-align: center;
-  display: none;
 }
 
 .dot {
@@ -548,6 +547,35 @@ height: 510px
 /*=============puppies page slideshow ends here
 ===========================
 */
+
+.puppies-subpage-link {
+  padding: 30px;
+  margin:auto;
+  width:80%;
+  display: flex;
+  flex-flow: column;
+}
+
+.puppiessubpage {
+  display: flex;
+  flex-flow: nowrap row;
+  padding: 15px;
+}
+
+.puppiessubpage h2{
+  padding: 20px;
+}
+
+.puppiessubpage a:visited, a:link{
+  text-decoration: none;
+  color: #222222 !important;
+}
+
+.puppiessubpage a:active, a:hover{
+  opacity: 0.8;
+  background: none;
+  color: rgba(242,223,126) !important;
+}
 
 /*styles for the landing page buttons*/
 .aside1 {
@@ -700,7 +728,18 @@ p{
   width: 85%;
   margin: auto;
 }
+.puppies-subpage-link{
+  display: flex;
+  flex-flow: nowrap row;
+  width:55%;
+  margin:auto;
+}
 
+.puppiessubpage{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
 .section {
   display: block;
