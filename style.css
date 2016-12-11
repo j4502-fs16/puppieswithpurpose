@@ -41,6 +41,7 @@ nav a:link, a:visited {
   color: #ebebe0 !important;
   display: block;
   text-decoration: none;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 .social {
@@ -575,6 +576,8 @@ height: 510px
   opacity: 0.8;
   background: none;
   color: rgba(242,223,126) !important;
+  font-size: 100%;
+  font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 }
 
 /*styles for the landing page buttons*/
@@ -620,6 +623,29 @@ article {
 
 /*landing page buttons end here*/
 
+/*puppies subpage style start here*/
+
+.puppies_info{
+  width: 90%;
+  max-width: 1000px;
+  margin:30px auto;
+  border: solid 3px white;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+.puppiesimg{
+  margin:20px auto;
+  padding: 0 20px;
+}
+
+.puppiesintro{
+  margin: auto;
+  padding: 0 20px 10px 20px;
+}
+
+/*puppies sub page style end here*/
 
 .social-wrapper {
     display: flex;
@@ -647,6 +673,10 @@ height: 100%;
 
 
 @media screen and (min-width:799px){
+
+  .puppies_info{
+    flex-flow: row;
+  }
 
   .menu-trigger{
     display: none !important;
