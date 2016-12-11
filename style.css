@@ -469,10 +469,8 @@ height: 510px
 }
 
 .slideshow-container img{
-  border-radius: 20px;
-  overflow: hidden;
-  /*border-top: 1px solid #222222;
-  border-bottom: 1px solid #222222;*/
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
 }
 
 .prev, .next {
