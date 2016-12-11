@@ -260,8 +260,12 @@ p{
 
 .zoom-image{
   display:inline-block;
-  overflow;
-  height:100vh;
+}
+
+.zoom-image img{
+  border-radius: 20px;
+  overflow: hidden;
+  height: 90vh;
 }
 
 div.img {
