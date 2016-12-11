@@ -96,6 +96,7 @@ h4{
 font-family: 'Abril Fatface', Georgia, "Times New Roman", serif;
 color: #222222;
 font-size: 2rem;
+text-align: center;
 }
 
 h5{
@@ -387,7 +388,9 @@ height: 510px
   padding: 20px;
   justify-content: space-around;
   align-items: center;
+  display: none;
 }
+
 
 /*.section {
   column-count: 3;
@@ -401,12 +404,11 @@ height: 510px
    font-weight: bold;
    padding-bottom: 10px;
    border-bottom: solid 0.5px rgba(0, 0, 0, 0.5);
-
   }
 
 .section1 p{
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 
 .section1 a:link{
@@ -423,11 +425,13 @@ height: 510px
 }
 
 .section2{
-     font-style: italic;
      padding-bottom: 10px;
      border-bottom: solid 0.5px rgba(0, 0, 0, 0.5);
-
     }
+.section2 p{
+    font-size: 1.1rem;
+    line-height: 1rem;
+  }
 
 .section3{
     padding-bottom: 10px;
@@ -441,7 +445,7 @@ height: 510px
 .section3 p, .section4 p{
   color: rgba(0, 0, 0, 0.8);
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1rem;
 }
 
 .slideshow-container {
@@ -600,10 +604,6 @@ article {
   padding: 10px;
 }
 
-
-
-
-
 /*landing page buttons end here*/
 
 
@@ -755,6 +755,9 @@ p{
       padding: 0;
     }
 
+#logo_container {
+    display: block;
+    }
 }
 
 #calendar {
