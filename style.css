@@ -391,6 +391,14 @@ height: 510px
   display: none;
 }
 
+.intro {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+
 
 /*.section {
   column-count: 3;
