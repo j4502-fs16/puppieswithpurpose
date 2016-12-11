@@ -457,15 +457,17 @@ height: 510px
 }
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 840px;
   position: relative;
   margin: 20px auto;
   width: 100%;
 }
 
 .slideshow-container img{
-  border-top: 1px solid #222222;
-  border-bottom: 1px solid #222222;
+  border-radius: 20px;
+  overflow: hidden;
+  /*border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;*/
 }
 
 .prev, .next {
