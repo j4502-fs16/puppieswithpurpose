@@ -562,13 +562,14 @@ height: 510px
 /*styles for the landing page buttons*/
 .aside1 {
   display: flex;
-  flex-flow: nowrap row;
+  flex-flow: column;
   padding: 15px;
+  align-items: center;
 }
-
+/*
 .aside1 h2{
   padding: 20px;
-}
+}*/
 
 .aside1 a:visited, a:link{
   text-decoration: none;
@@ -735,14 +736,12 @@ p{
 }
 
 .main {
-  order: 1;
   display: flex;
   flex: 4;
 }
 
 .aside {
 			flex: 1;
-			order: 2;
       display: flex;
       flex-flow: column;
     }
