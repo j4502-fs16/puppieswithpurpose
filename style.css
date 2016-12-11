@@ -581,20 +581,22 @@ height: 510px
   color: rgba(242,223,126) !important;
 }
 
-article
-
-.main
-
-aside
-
-.aside
-
 .wrapper{
 	display: flex;
 	flex-flow: row wrap;
   width: 95%;
   margin: auto;
   padding-bottom: .1px;
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+}
+
+.main, .aside {
+  flex: 1 100%;
+  padding: 10px;
 }
 
 
@@ -732,22 +734,17 @@ p{
   padding-top: 30px;
 }
 
+.main {
+  order: 1;
+  display: flex;
+  flex: 4;
+}
+
 .aside {
-			flex: 2;
+			flex: 1;
 			order: 2;
       display: flex;
       flex-flow: column;
-    }
-
-    .main {
-			order: 1;
-			display: flex;
-			flex: 3;
-    }
-
-    .dots {
-      display: flex;
-      order: 3;
     }
 
 }
