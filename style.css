@@ -431,10 +431,11 @@ height: 510px
 #the_greek_list{
   text-decoration: none;
   /*color: #FFB12E;*/
-  font-weight: normal;
+  font-weight: bold;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 1rem;
  line-height: 1.1rem;
+
 }
 
 .section2{
