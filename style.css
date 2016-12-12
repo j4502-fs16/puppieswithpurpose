@@ -398,7 +398,7 @@ height: 510px
 
 .intro {
   text-align: center;
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 1.3rem;
   line-height: 1.5rem;
 }
@@ -420,8 +420,8 @@ height: 510px
   }
 
 .section1 p{
-  font-size: 1.3rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
 }
 
 .section1 a:link{
@@ -434,7 +434,7 @@ height: 510px
   font-weight: normal;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 1rem;
- line-height: 1.2rem;
+ line-height: 1.1rem;
 }
 
 .section2{
